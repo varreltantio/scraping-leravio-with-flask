@@ -36,7 +36,7 @@ def scrape_title(url):
         judul_list = []
         topic_list = []
 
-        for judul_elemen in semua_judul_elemen:
+        for judul_elemen in semua_judul_elemen[:3]:
             link_elemen = judul_elemen.find('a')
 
             if link_elemen:
