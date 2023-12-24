@@ -46,14 +46,12 @@
           <thead>
               <tr>
                   <th>Judul</th>
-                  <th>Topic</th>
               </tr>
           </thead>
           <tbody>
               {% for index, row in hasil.iterrows() %}
                   <tr>
                       <td>{{ row['Judul'] }}</td>
-                      <td>{{ row['Topic'] }}</td>
                   </tr>
               {% endfor %}
           </tbody>
