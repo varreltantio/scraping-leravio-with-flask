@@ -102,7 +102,7 @@ def scrape():
 
 @app.route('/download_result')
 def download_result():
-    return send_file('hasil_scraping.xlsx', as_attachment=True)
+    return send_file('../hasil_scraping.xlsx', as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
